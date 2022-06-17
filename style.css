@@ -1,0 +1,280 @@
+@import url("//fonts.googleapis.com/css?family=Lato");
+html {
+	font-family: 'Lato', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+	html {
+		font-family: 'Lato', sans-serif;
+	}
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+.black-red-text {
+	background-image: repeating-linear-gradient(45deg, white, red);
+	-webkit-background-clip: text;
+	background-size: 800% 800%;
+	-webkit-text-fill-color: transparent;
+	animation: black-red 9s ease infinite;
+}
+
+@keyframes black-red {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 25%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@-webkit-keyframes rotate-head {
+	15% {
+		-webkit-transform: translateX(5px);
+		transform: translateX(5px);
+	}
+	30% {
+		-webkit-transform: translateX(-5px);
+		transform: translateX(-5px);
+	}
+	50% {
+		-webkit-transform: translateX(3px);
+		transform: translateX(3px);
+	}
+	65% {
+		-webkit-transform: translateX(-3px);
+		transform: translateX(-3px);
+	}
+	80% {
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
+	}
+	100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+}
+@keyframes rotate-head {
+	10% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+.rotate-head {
+	-webkit-animation: rotate-head 10s ease;
+	animation: rotate-head 10s ease;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	margin: 20px 20px;
+	align-items: center;
+}
+
+.cell-g {
+	cursor: pointer;
+}
+
+body {
+	margin: 0;
+	font-size: 16pt;
+}
+
+body .main-container {
+  max-width: 1550px;
+}
+
+p {
+  margin: 2% 20% 2% 20%;
+}
+
+body .inner-content {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  text-align: center;
+}
+
+#content {
+	position: relative;
+}
+
+.cell-g path {
+	fill: none;
+
+	stroke-linecap: round;
+	pointer-events: all;
+}
+
+.tv {
+	position: relative;
+	display: block;
+	height: 150px;
+	width: 225px;
+}
+
+blockquote {
+  margin: 2% 15% 2% 15%;
+}
+
+.tvpng {
+	position: relative;
+	margin: 20px 20px;
+}
+
+.tvvideo {
+	position: relative;
+	margin: 20px 20px;
+	left: 8%;
+	top: 5%;
+}
+
+.small {
+	font-family: "Lato";
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	line-height: 1.5;
+}
+
+.large {
+	font-family: "Lato";
+	font-size: 60px;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 60px;
+}
+
+.title {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+	width: 100%;
+	vertical-align: center;
+}
+
+#intro p {
+	text-align: center;
+	color: #ffffff;
+}
+
+.title p {
+	margin: 10px;
+}
+
+#intro {
+	background-color: #D2691E;
+	width: 100%;
+	margin: 0;
+	vertical-align: center;
+}
+
+#ending {
+	margin-top: 50px;
+	width: 100%;
+}
+
+#conclusion p:last-child {
+	padding-bottom: 100px;
+	border-bottom: 1px solid #dedede;
+}
+
+.credits {
+	font-family: "Lato";
+	text-align: left;
+	margin-top: 50px;
+}
+
+.credits h2 {
+	max-width: 600px;
+	margin: 0 auto;
+	font-family: "Lato";
+	font-size: 24px;
+	font-weight: 900;
+	text-align: left;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+.credits p {
+	font-size: 12px;
+	display: block;
+	margin: auto;
+	text-align: left;
+
+	line-height: 1.8;
+	max-width: 600px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.byline {
+	font-family: "Lato";
+	font-size: 30px;
+}
+
+#intro a {
+	color: #fff;
+}
+#graphic a {
+	color: #000;
+}
+#ending a {
+	color: #000;
+	padding-bottom: 100px;
+}
+
+.lede {
+	margin-top: 100px;
+	display: block;
+	margin: 0 auto;
+	font-family: "Lato";
+	font-size: 16px;
+	line-height: 1.7;
+	max-width: 560px;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.lede-div {
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+
+.byline .bold {
+	font-weight: 600;
+}
+
+#intro .prose {
+	display: block;
+	margin: auto;
+	text-align: left;
+	font-family: "Lato";
+	font-size: 16;
+	line-height: 1.8;
+	max-width: 600px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.step .prose {
+	display: block;
+	margin: auto;
+	text-align: left;
+	font-family: "Lato";
+	font-size: 16;
+	line-height: 1.8;
+	max-width: 400px;
+	padding: 1rem;
+}
+
