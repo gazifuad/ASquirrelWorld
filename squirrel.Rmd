@@ -39,7 +39,6 @@ HTML(
 				</div>
 				<div class = "center">
 					<p class="byline"><span class="bold">Gazi Fuad</span></p>
-
 				</div>
 				<div class="lede-div">
 		  <p class="prose" id="firstp">
