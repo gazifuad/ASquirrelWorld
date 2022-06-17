@@ -5,4 +5,4 @@ As a part of my final project for DSCI 304 (Data Visualization) at Rice, I chose
 
 You can view my findings about the squirrels of Central Park [here](https://gazifuad.github.io/ASquirrelWorld/). This project was built with R, HTML, and CSS.
 
-[![thumbnail gif](images/squirrel_scroll.gif)]([https://connorrothschild.shinyapps.io/automation/](https://gazifuad.github.io/ASquirrelWorld/))
+[![gif](images/squirrel_scroll.gif)](https://gazifuad.github.io/ASquirrelWorld/)
